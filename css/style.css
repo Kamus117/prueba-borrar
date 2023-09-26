@@ -1,0 +1,73 @@
+/* Normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root{
+    --azul: blue;
+}
+
+body{
+    overflow-x: hidden;
+}
+body header .titulo{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-style: oblique;
+}
+
+#subtitulo{
+    color: red;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+input{
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.caja-grande{
+    height: 150px;
+    width: 450px;
+    background-color: red;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.cajon-1{
+    height: 10vh;
+    width: 50px;
+    background-color: aquamarine;
+
+    margin-left: calc(5*calc(30px - 10px) + 25px);
+}
+
+.listas{
+    padding: 30px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 3rem;
+    margin-left: 10px;
+    color: black;
+}
+.a1{
+    margin-bottom: 10px;
+}
+
+.link:hover{
+    color: rgb(26, 9, 176);
+    text-shadow: red 0 0 15px;
+    transition: ease-out 6s;
+}
